@@ -61,6 +61,7 @@ with open(output_path, "w") as txtfile:
     txtfile.write("Financial Analysis")
     txtfile.write("\n")
     txtfile.write("----------------------------")
+    txtfile.write("Total: " +str(total_months))
     txtfile.write("\n")
     txtfile.write("Total: $" +str(total_profit))
     txtfile.write("\n")
